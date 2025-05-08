@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb74202-3ef5-470e-976e-43006ede247d" name="Default Changelist" comment="" />
+    <list default="true" id="aeb74202-3ef5-470e-976e-43006ede247d" name="Default Changelist" comment="Reintroduce bugs into the system">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +50,24 @@
       </state>
     </system>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowGroupBy>Priority</toolWindowGroupBy>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Virteso"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Virteso/HospitalSystem.git",
+    "accountId": "c0c84cad-8406-4765-8dd4-8c5251353851"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -60,7 +82,9 @@
   "keyToString": {
     "Gradle.HospitalSystem [build].executor": "Run",
     "Gradle.HospitalSystem [run].executor": "Run",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "settings.findbugs.project"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.HospitalSystem [build]">
@@ -159,14 +183,45 @@
       <updated>1612630096432</updated>
       <workItem from="1612630098838" duration="63000" />
     </task>
+    <task id="LOCAL-00001" summary="Meh">
+      <option name="closed" value="true" />
+      <created>1746696266807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746696266807</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Reintroduce bugs into the system">
+      <option name="closed" value="true" />
+      <created>1746696669929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746696669929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Meh" />
+    <MESSAGE value="Reintroduce bugs into the system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reintroduce bugs into the system" />
   </component>
 </project>
