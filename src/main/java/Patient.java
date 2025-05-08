@@ -14,7 +14,7 @@ public class Patient extends Person{
 	public int generatePriority(){
 		Random random = new Random();
 		int n = 5;
-		return random.nextInt(n);
+		return (int)(random.nextDouble()*n);
 	}
 	public Specialty getSpecialtyNeeded() {
 		return specialtyNeeded;

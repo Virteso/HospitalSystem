@@ -38,7 +38,7 @@ private static ArrayList<ExaminationRoom> examinationRooms;
 		doctors.add(new Doctor("Albus", "Dumbeldore", new GregorianCalendar(1860, 3, 12), Specialty.PED, room100));
 		doctors.add(new Doctor("Severus", "Snape", new GregorianCalendar(1967, 6, 2), Specialty.GEN, room100));
 		doctors.add(new Doctor("Harry", "Potter", new GregorianCalendar(1986, 11, 21), Specialty.CAR, room101));
-		doctors.add(new Doctor("Hermione", "Granger", new GregorianCalendar(1988, 11, 10), Specialty.PSY, room102));
+		doctors.add(new Doctor("Hermione", "Granger", new GregorianCalendar(1988, 12, 10), Specialty.PSY, room102));
 		
 	
 		// Check in doctors
@@ -99,8 +99,7 @@ private static ArrayList<ExaminationRoom> examinationRooms;
 		}
 		
 		// Occupy the examination room
-        assert examinationRoom != null;
-        examinationRoom.setRunning(true);
+		examinationRoom.setRunning(true);
 		examinationRoom.setOccupyingDoctor(doctor);
 		examinationRoom.setWaitingPatients(new ArrayList<Patient>());
 		

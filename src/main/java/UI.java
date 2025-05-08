@@ -324,7 +324,7 @@ public class UI extends Application{
 		
 		Label patientsLabel = new Label("Patients: ");
 		overviewGrid.add(patientsLabel, 0, 0);
-		String patients = "";
+		String patients = new String();
 		for (int i = 0; i < hospital.getPatients().size(); i++) {
 			patients += Integer.toString(i+1) + ". " +  hospital.getPatients().get(i) + "\n";
 		}
@@ -333,7 +333,7 @@ public class UI extends Application{
 		
 		Label doctorsLabel = new Label("Doctors: ");
 		overviewGrid.add(doctorsLabel, 2, 0);
-		String doctors = "";
+		String doctors = new String();
 		for (int i = 0; i < hospital.getDoctors().size(); i++) {
 			doctors += Integer.toString(i+1) + ". " + hospital.getDoctors().get(i) + "\n";
 		}
